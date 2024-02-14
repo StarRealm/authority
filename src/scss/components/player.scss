@@ -13,17 +13,13 @@
   border-radius: 4px;
   padding: 16px;
 
-  >  textarea {
-    background-color: colours.$black;
-    resize: none;
-  }
-
-  > p {
+  > textarea {
     font-size: 1.4rem;
     font-weight: 500;
     padding: 6px 24px;
     border-radius: 4px;
     background-color: colours.$black;
+    resize: none;
   }
 
   > .score {
