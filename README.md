@@ -1,6 +1,6 @@
 <div align="center">
   <img src="./assets/github-splash.png" width="750" alt="">
-  <h1><a href="https://chronodave.github.io/star-realms-authority/">Star Realms Authority Tracker</a></h1>
+  <h1><a href="https://chronodave.github.io/star-realms-authority/">Obschts Star Realms Authority Tracker</a></h1>
   <p>An online authority tracker for the card deckbuilding game <a href="https://www.starrealms.com/">Star Realms</a>.</p>
 </div>
 
