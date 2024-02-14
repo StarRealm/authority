@@ -13,6 +13,11 @@
   border-radius: 4px;
   padding: 16px;
 
+  >  textarea {
+    background-color: colours.$black;
+    resize: none;
+  }
+
   > p {
     font-size: 1.4rem;
     font-weight: 500;
