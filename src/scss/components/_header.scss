@@ -1,6 +1,6 @@
-@use 'colours';
-@use 'mixin';
-@use 'transition';
+@use '../core/_colours';
+@use '../core/_mixin';
+@use '../core/_transition';
 
 header {
   display: flex;

@@ -1,7 +1,7 @@
-@use 'colours';
-@use 'transition';
-@use 'mixin';
-@use 'breakpoints';
+@use '../core/_colours';
+@use '../core/_transition';
+@use '../core/_mixin';
+@use '../core/_breakpoints';
 
 .player {
   display: flex;

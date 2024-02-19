@@ -1,5 +1,5 @@
-@use 'font';
-@use 'colours';
+@use '../core/_font';
+@use '../core/_colours';
 
 body {
   font-family: font.$family;
