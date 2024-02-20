@@ -45,13 +45,11 @@ const debounce = <T extends (...args: any[]) => any>(cb: T, n: number) => {
 
 /** Players */
 const init = async () => {
-  const speak = (text: string) => speechSynthesis.speak(new SpeechSynthesisUtterance(text));
   const debouncedLifeDown = debounce(async (score: string) => {
     const lifeDown = await createLifeDown();
     lifeDown.start();
     lifeDown.addEventListener('ended', () => {
       lifeDown.stop();
-      speak(score);
     });
   }, 1000);
 
@@ -60,7 +58,6 @@ const init = async () => {
     lifeUp.start();
     lifeUp.addEventListener('ended', () => {
       lifeUp.stop();
-      speak(score);
     });
   }, 1000);
 
