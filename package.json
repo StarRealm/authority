@@ -7,7 +7,7 @@
   "scripts": {
     "build:ts": "node scripts/esbuild.js",
     "build:html": "node scripts/html.js",
-    "build:sass": "sass src/scss/index.scss docs/index.css --style=compressed --load-path=src/scss/core",
+    "build:sass": "sass docs/index.scss docs/index.css --load-path=src/scss/core",
     "build": "npm run build:ts && npm run build:html && npm run build:sass",
     "start:sass": "sass src/scss/index.scss docs/index.css --watch --load-path=src/scss/core",
     "start:html": "node scripts/html.js -w",

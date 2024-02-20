@@ -96,6 +96,7 @@ a:visited {
   height: 48px;
   margin: 8px 0;
   resize: none;
+  line-height: 150%;
 }
 .player > .score {
   position: relative;
@@ -207,4 +208,6 @@ header > .toolbar button.focus.show svg.show {
 }
 header > .toolbar button.focus:not(.show) svg.hide {
   display: none;
-}/*# sourceMappingURL=index.css.map */
+}
+
+/*# sourceMappingURL=index.css.map */
